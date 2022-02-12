@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="qaautomation.january2022.AppTest">
+        <methods>
+          <include name="createChromeDriver"/>
+          <include name="test1"/>
+          <include name="test2"/>
+          <include name="quitChromeDriver"/>
+        </methods>
+      </class> <!-- qaautomation.january2022.AppTest -->
+      <class name="qaautomation.january2022.AppTest2">
+        <methods>
+          <include name="createChromeDriver"/>
+          <include name="test1"/>
+          <include name="quitChromeDriver"/>
+        </methods>
+      </class> <!-- qaautomation.january2022.AppTest2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

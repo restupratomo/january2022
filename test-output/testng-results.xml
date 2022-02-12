@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-06T15:56:51 WIB" name="Default suite" finished-at="2022-02-06T15:56:55 WIB" duration-ms="4399">
+    <groups>
+    </groups>
+    <test started-at="2022-02-06T15:56:51 WIB" name="Default test" finished-at="2022-02-06T15:56:55 WIB" duration-ms="4399">
+      <class name="qaautomation.january2022.GraphQLTest">
+        <test-method signature="checkCEO()[pri:0, instance:qaautomation.january2022.GraphQLTest@3e8c3cb]" started-at="2022-02-06T15:56:51 WIB" name="checkCEO" finished-at="2022-02-06T15:56:54 WIB" duration-ms="3205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCEO -->
+        <test-method signature="fakerTest()[pri:0, instance:qaautomation.january2022.GraphQLTest@3e8c3cb]" started-at="2022-02-06T15:56:54 WIB" name="fakerTest" finished-at="2022-02-06T15:56:54 WIB" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fakerTest -->
+        <test-method signature="launchRocketWithVariable()[pri:0, instance:qaautomation.january2022.GraphQLTest@3e8c3cb]" started-at="2022-02-06T15:56:54 WIB" name="launchRocketWithVariable" finished-at="2022-02-06T15:56:55 WIB" duration-ms="925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchRocketWithVariable -->
+      </class> <!-- qaautomation.january2022.GraphQLTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
